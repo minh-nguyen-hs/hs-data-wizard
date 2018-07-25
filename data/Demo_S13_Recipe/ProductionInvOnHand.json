@@ -1,0 +1,16 @@
+[
+    {
+        "store_key": "store_test",
+        "id": "inv-on-hand-00001",
+        "item_id": "inv-item-0000010",
+        "item_cost": 9.66,
+        "theoretical_on_hand": 10000
+    },
+    {
+        "store_key": "store_test",
+        "id": "inv-on-hand-00002",
+        "item_id": "inv-item-0000013",
+        "item_cost": 6.1,
+        "theoretical_on_hand": 10000
+    }
+]

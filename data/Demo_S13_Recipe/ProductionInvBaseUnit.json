@@ -1,0 +1,27 @@
+[
+  {
+    "base_unit": "Each",
+    "scheme": "Neither",
+    "class": "Count"
+  },
+  {
+    "base_unit": "Wt. Oz",
+    "scheme": "Imperial",
+    "class": "Weight"
+  },
+  {
+    "base_unit": "Gram",
+    "scheme": "Metric",
+    "class": "Weight"
+  },
+  {
+    "base_unit": "Milliliter",
+    "scheme": "Metric",
+    "class": "Volume"
+  },
+  {
+    "base_unit": "Fl. Oz",
+    "scheme": "Imperial",
+    "class": "Volume"
+  }
+]

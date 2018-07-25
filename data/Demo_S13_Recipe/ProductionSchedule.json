@@ -1,0 +1,39 @@
+[
+  {
+    "store_key": null,
+    "name": "Global Daily",
+    "unique_name": "global daily",
+    "status": "Active",
+    "frequencies": [
+      {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "frequency_time": "09:00 PM",
+        "is_thaw": true,
+        "is_prep": true
+      },
+      {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "frequency_time": "10:00 PM",
+        "is_thaw": true,
+        "is_prep": true
+      }
+    ],
+    "id": "prod-sched-0001"
+  }
+]

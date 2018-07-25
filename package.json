@@ -1,0 +1,19 @@
+{
+  "name": "data-wizard",
+  "version": "1.0.0",
+  "description": "Clear, seed data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Rim Tran",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7"
+  }
+}

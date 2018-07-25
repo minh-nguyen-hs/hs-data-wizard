@@ -1,0 +1,36 @@
+[
+  {
+    "store_key": [
+      "store_test"
+    ],
+    "id": "inv-item-0000010",
+    "item_code": "2000",
+    "item_name": "BUTTERMILK 1% 16-1QT CNTRYFR",
+    "unique_name": "buttermilk 1% 16-1qt cntryfr",
+    "category": "inv-cat-004",
+    "counting_uoms": [],
+    "base_uom": "inv-uom-0001",
+    "reporting_uom": "inv-uom-0001",
+    "status": "Active",
+    "theoretical_on_hand": 10000,
+    "conversions": [],
+    "class_conversions": []
+  },
+  {
+    "store_key": [
+      "store_test"
+    ],
+    "id": "inv-item-0000013",
+    "item_code": "2003",
+    "item_name": "DRESSING FREN FF CALIF 4-1GAL MARZ",
+    "category": "inv-cat-003",
+    "counting_uoms": [],
+    "base_uom": "inv-uom-0001",
+    "reporting_uom": "inv-uom-0001",
+    "status": "Active",
+    "unique_name": "dressing fren ff calif 4-1gal marz",
+    "theoretical_on_hand": 10000,
+    "conversions": [],
+    "class_conversions": []
+  }
+]

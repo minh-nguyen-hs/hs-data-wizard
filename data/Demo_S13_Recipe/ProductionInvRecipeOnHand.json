@@ -1,0 +1,16 @@
+[
+    {
+        "store_key": "store_test",
+        "id": "rep-on-hand-00001",
+        "recipe_id": "inv-recipe-000001",
+        "theoretical_on_hand": 1000,
+        "oh_tracking": true
+    },
+    {
+        "store_key": "store_test",
+        "id": "rep-on-hand-00002",
+        "recipe_id": "inv-recipe-000002",
+        "theoretical_on_hand": 1000,
+        "oh_tracking": true
+    }
+]

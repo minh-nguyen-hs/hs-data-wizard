@@ -1,0 +1,57 @@
+[
+  {
+    "id": "inv-recipe-000001",
+    "name": "Chicken Wing",
+    "uom": "inv-uom-0001",
+    "category": "inv-cat-006",
+    "store_key": [
+      "store_test"
+    ],
+    "quantity": 100,
+    "is_deleted": false,
+    "status": "Active",
+    "oh_tracking": true,
+    "item_ingredients":
+    [
+      {
+        "entity_id": "inv-item-0000010",
+        "uom": "inv-uom-0001",
+        "quantity": 10
+      },
+      {
+        "entity_id": "inv-item-0000013",
+        "uom": "inv-uom-0001",
+        "quantity": 10
+      }
+    ],
+    "recipe_ingredients":
+    [
+      {
+        "entity_id": "inv-recipe-000002",
+        "uom": "inv-uom-0001",
+        "quantity": 10
+      }
+    ],
+    "theoretical_on_hand": 500,
+    "conversions":[],
+    "class_conversions":[]
+  },
+  {
+    "id": "inv-recipe-000002",
+    "name": "Meat Ball",
+    "uom": "inv-uom-0001",
+    "category": "inv-cat-006",
+    "store_key": [
+      "store_test"
+    ],
+    "quantity": 100,
+    "is_deleted": false,
+    "status": "Active",
+    "oh_tracking": true,
+    "item_ingredients":[],
+    "recipe_ingredients":[],
+    "theoretical_on_hand": 500,
+    "conversions":[],
+    "class_conversions":[]
+  }
+]

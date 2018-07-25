@@ -1,0 +1,27 @@
+[
+  {
+    "schedule": "prod-sched-0001",
+    "item_id": "inv-item-0000010",
+    "thaw_time": "01:00",
+    "thaw_uom": "inv-uom-0001",
+    "store_key": {
+      "store_test": "prod-sched-0001"
+    },
+    "minimum_thawed_quantity": 99,
+    "status": "Active",
+    "shelf_life": "04:45",
+    "id": "production-thaw-0001"
+  },
+  {
+    "schedule": "prod-sched-0001",
+    "item_id": "inv-item-0000013",
+    "thaw_time": "00:45",
+    "store_key": {
+      "store_test": "prod-sched-0001"
+    },
+    "thaw_uom": "inv-uom-0001",
+    "status": "Active",
+    "shelf_life": "08:15",
+    "id": "production-thaw-0002"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "recipe_id": "inv-recipe-000001",
+    "schedule": "prod-sched-0001",
+    "hold_time": "01:00",
+    "prep_uom": "inv-uom-0001",
+    "store_key": {
+      "store_test": "prod-sched-0001"
+    },
+    "minimum_prep_quantity": 15,
+    "status": "Active",
+    "id": "prod-prep-0001",
+    "prep_time": "00:45"
+  },
+  {
+    "recipe_id": "inv-recipe-000002",
+    "schedule": "prod-sched-0001",
+    "hold_time": "04:15",
+    "prep_uom": "inv-uom-0001",
+    "store_key": {
+      "store_test": "prod-sched-0001"
+    },
+    "status": "Active",
+    "prep_time": "04:45",
+    "id": "prod-prep-0002"
+  }
+]

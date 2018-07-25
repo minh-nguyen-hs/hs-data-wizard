@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "inv-uom-0001",
+    "name": "Each",
+    "unique_name": "each",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "Each",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": true,
+    "base_uom": true
+  },
+  {
+    "id": "inv-uom-0002",
+    "name": "Wt. Oz",
+    "unique_name": "wt. oz",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "Wt. Oz",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": true,
+    "base_uom": true
+  },
+  {
+    "id": "inv-uom-0003",
+    "name": "Pound",
+    "unique_name": "pound",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "Pound",
+    "status": "Active",
+    "base_unit_amount": 16,
+    "system_default": true,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0004",
+    "name": "Gram",
+    "unique_name": "gram",
+    "base_unit": {
+      "base_unit": "Gram",
+      "scheme": "Metric",
+      "class": "Weight"
+    },
+    "name_plural": "Gram",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": true,
+    "base_uom": true
+  },
+  {
+    "id": "inv-uom-0005",
+    "name": "Kilogram",
+    "unique_name": "kilogram",
+    "base_unit": {
+      "base_unit": "Gram",
+      "scheme": "Metric",
+      "class": "Weight"
+    },
+    "name_plural": "Kilogram",
+    "status": "Active",
+    "base_unit_amount": 1000,
+    "system_default": true,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0006",
+    "name": "Fl. Oz",
+    "unique_name": "fl. oz",
+    "base_unit": {
+      "base_unit": "Fl. Oz",
+      "scheme": "Imperial",
+      "class": "Volume"
+    },
+    "name_plural": "Fl. Oz",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": true,
+    "base_uom": true
+  },
+  {
+    "id": "inv-uom-0007",
+    "name": "Gallon",
+    "unique_name": "gallon",
+    "base_unit": {
+      "base_unit": "Fl. Oz",
+      "scheme": "Imperial",
+      "class": "Volume"
+    },
+    "name_plural": "Gallon",
+    "status": "Active",
+    "base_unit_amount": 128,
+    "system_default": true,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0008",
+    "name": "Quart",
+    "unique_name": "quart",
+    "base_unit": {
+      "base_unit": "Fl. Oz",
+      "scheme": "Imperial",
+      "class": "Volume"
+    },
+    "name_plural": "Quart",
+    "status": "Active",
+    "base_unit_amount": 32,
+    "system_default": true,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0009",
+    "name": "Milliliter",
+    "unique_name": "milliliter",
+    "base_unit": {
+      "base_unit": "Milliliter",
+      "scheme": "Metric",
+      "class": "Volume"
+    },
+    "name_plural": "Milliliter",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": true,
+    "base_uom": true
+  },
+  {
+    "id": "inv-uom-0010",
+    "name": "Liter",
+    "unique_name": "liter",
+    "base_unit": {
+      "base_unit": "Milliliter",
+      "scheme": "Metric",
+      "class": "Volume"
+    },
+    "name_plural": "Liter",
+    "status": "Active",
+    "base_unit_amount": 1000,
+    "system_default": true,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0011",
+    "name": ".5GAL",
+    "unique_name": ".5gal",
+    "base_unit": {
+      "base_unit": "Fl. Oz",
+      "scheme": "Imperial",
+      "class": "Volume"
+    },
+    "name_plural": ".5GAL",
+    "status": "Active",
+    "base_unit_amount": 64,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0012",
+    "name": "#10 Can",
+    "unique_name": "#10 can",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "#10 Can",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0013",
+    "name": "1.25LTR",
+    "unique_name": "1.25ltr",
+    "base_unit": {
+      "base_unit": "Fl. Oz",
+      "scheme": "Imperial",
+      "class": "Volume"
+    },
+    "name_plural": "1.25LTR",
+    "status": "Active",
+    "base_unit_amount": 40,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0014",
+    "name": "1.5#",
+    "unique_name": "1.5#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "1.5#",
+    "status": "Active",
+    "base_unit_amount": 24,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0015",
+    "name": "10# 108Z",
+    "unique_name": "10# 108z",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "10# 108Z",
+    "status": "Active",
+    "base_unit_amount": 108,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0016",
+    "name": "1000CT",
+    "unique_name": "1000ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "1000CT",
+    "status": "Active",
+    "base_unit_amount": 1000,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0017",
+    "name": "100CT",
+    "unique_name": "100ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "100CT",
+    "status": "Active",
+    "base_unit_amount": 100,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0018",
+    "name": "10CT",
+    "unique_name": "10ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "10CT",
+    "status": "Active",
+    "base_unit_amount": 10,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0019",
+    "name": "15#",
+    "unique_name": "15#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "15#",
+    "status": "Active",
+    "base_unit_amount": 240,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0020",
+    "name": "15z",
+    "unique_name": "15z",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "15z",
+    "status": "Active",
+    "base_unit_amount": 15,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0021",
+    "name": "16 CT",
+    "unique_name": "16 ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "16 CT",
+    "status": "Active",
+    "base_unit_amount": 16,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0022",
+    "name": "18Z",
+    "unique_name": "18z",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "18Z",
+    "status": "Active",
+    "base_unit_amount": 18,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0023",
+    "name": "2.5#",
+    "unique_name": "2.5#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "2.5#",
+    "status": "Active",
+    "base_unit_amount": 40,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0024",
+    "name": "2#",
+    "unique_name": "2#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "2#",
+    "status": "Active",
+    "base_unit_amount": 32,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0025",
+    "name": "200CT",
+    "unique_name": "200ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "200CT",
+    "status": "Active",
+    "base_unit_amount": 200,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0026",
+    "name": "2700ML",
+    "unique_name": "2700ml",
+    "base_unit": {
+      "base_unit": "Milliliter",
+      "scheme": "Metric",
+      "class": "Volume"
+    },
+    "name_plural": "2700ML",
+    "status": "Active",
+    "base_unit_amount": 2700,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0027",
+    "name": "3# Bag",
+    "unique_name": "3# bag",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "3# Bag",
+    "status": "Active",
+    "base_unit_amount": 48,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0028",
+    "name": "32Z",
+    "unique_name": "32z",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "32Z",
+    "status": "Active",
+    "base_unit_amount": 32,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0029",
+    "name": "4#",
+    "unique_name": "4#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "4#",
+    "status": "Active",
+    "base_unit_amount": 64,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0030",
+    "name": "46Z",
+    "unique_name": "46z",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "46Z",
+    "status": "Active",
+    "base_unit_amount": 46,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0031",
+    "name": "5#",
+    "unique_name": "5#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "5#",
+    "status": "Active",
+    "base_unit_amount": 80,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0032",
+    "name": "6#",
+    "unique_name": "6#",
+    "base_unit": {
+      "base_unit": "Wt. Oz",
+      "scheme": "Imperial",
+      "class": "Weight"
+    },
+    "name_plural": "6#",
+    "status": "Active",
+    "base_unit_amount": 96,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0033",
+    "name": "6CT",
+    "unique_name": "6ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "6CT",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0034",
+    "name": "Bag",
+    "unique_name": "bag",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "Bag",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0035",
+    "name": "CA",
+    "unique_name": "ca",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0036",
+    "name": "CA 1/1000CT",
+    "unique_name": "ca 1/1000ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/1000CT",
+    "status": "Active",
+    "base_unit_amount": 1000,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0037",
+    "name": "CA 1/15#",
+    "unique_name": "ca 1/15#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/15#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0038",
+    "name": "CA 1/18Z",
+    "unique_name": "ca 1/18z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/18Z",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0039",
+    "name": "CA 1/200CT",
+    "unique_name": "ca 1/200ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/200CT",
+    "status": "Active",
+    "base_unit_amount": 200,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0040",
+    "name": "CA 1/2700ML",
+    "unique_name": "ca 1/2700ml",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/2700ML",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0041",
+    "name": "CA 1/5#",
+    "unique_name": "ca 1/5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/5#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0042",
+    "name": "CA 1/50#",
+    "unique_name": "ca 1/50#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/50#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0043",
+    "name": "CA 1/6#",
+    "unique_name": "ca 1/6#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/6#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0044",
+    "name": "CA 1/6CT",
+    "unique_name": "ca 1/6ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/6CT",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0045",
+    "name": "CA 1/CT",
+    "unique_name": "ca 1/ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/CT",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0046",
+    "name": "CA 10/100CT",
+    "unique_name": "ca 10/100ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 10/100CT",
+    "status": "Active",
+    "base_unit_amount": 1000,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0047",
+    "name": "CA 10/4#",
+    "unique_name": "ca 10/4#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 10/4#",
+    "status": "Active",
+    "base_unit_amount": 10,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0048",
+    "name": "CA 1/10#",
+    "unique_name": "ca 1/10#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/10#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0049",
+    "name": "CA 12/2.5#",
+    "unique_name": "ca 12/2.5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 12/2.5#",
+    "status": "Active",
+    "base_unit_amount": 12,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0050",
+    "name": "CA 16/10oz",
+    "unique_name": "ca 16/10oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 16/10oz",
+    "status": "Active",
+    "base_unit_amount": 16,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0051",
+    "name": "CA 16/15z",
+    "unique_name": "ca 16/15z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 16/15z",
+    "status": "Active",
+    "base_unit_amount": 16,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0052",
+    "name": "CA 16/1QT",
+    "unique_name": "ca 16/1qt",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 16/1QT",
+    "status": "Active",
+    "base_unit_amount": 16,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0053",
+    "name": "CA 160/1.5Z",
+    "unique_name": "ca 160/1.5z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 160/1.5Z",
+    "status": "Active",
+    "base_unit_amount": 160,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0054",
+    "name": "CA 2/1.25LTR",
+    "unique_name": "ca 2/1.25ltr",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 2/1.25LTR",
+    "status": "Active",
+    "base_unit_amount": 2,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0055",
+    "name": "CA 2/16 CT",
+    "unique_name": "ca 2/16 ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 2/16 CT",
+    "status": "Active",
+    "base_unit_amount": 2,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0056",
+    "name": "CA 2/1GAL",
+    "unique_name": "ca 2/1gal",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 2/1GAL",
+    "status": "Active",
+    "base_unit_amount": 2,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0057",
+    "name": "CA 2/5#",
+    "unique_name": "ca 2/5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 2/5#",
+    "status": "Active",
+    "base_unit_amount": 2,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0058",
+    "name": "CA 20/100CT",
+    "unique_name": "ca 20/100ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 20/100CT",
+    "status": "Active",
+    "base_unit_amount": 2000,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0059",
+    "name": "CA 24/8oz",
+    "unique_name": "ca 24/8oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 24/8oz",
+    "status": "Active",
+    "base_unit_amount": 24,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0060",
+    "name": "CA 25/2oz",
+    "unique_name": "ca 25/2oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 25/2oz",
+    "status": "Active",
+    "base_unit_amount": 25,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0061",
+    "name": "CA 1/25#",
+    "unique_name": "ca 1/25#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 1/25#",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0062",
+    "name": "CA 3/#10",
+    "unique_name": "ca 3/#10",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 3/#10",
+    "status": "Active",
+    "base_unit_amount": 3,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0063",
+    "name": "CA 300",
+    "unique_name": "ca 300",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 300",
+    "status": "Active",
+    "base_unit_amount": 300,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0064",
+    "name": "CA 36/10CT",
+    "unique_name": "ca 36/10ct",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 36/10CT",
+    "status": "Active",
+    "base_unit_amount": 360,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0065",
+    "name": "CA 36/5oz",
+    "unique_name": "ca 36/5oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 36/5oz",
+    "status": "Active",
+    "base_unit_amount": 36,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0066",
+    "name": "CA 4/1GAL",
+    "unique_name": "ca 4/1gal",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 4/1GAL",
+    "status": "Active",
+    "base_unit_amount": 4,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0067",
+    "name": "CA 4/3# Bag",
+    "unique_name": "ca 4/3# bag",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 4/3# Bag",
+    "status": "Active",
+    "base_unit_amount": 4,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0068",
+    "name": "CA 4/5#",
+    "unique_name": "ca 4/5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 4/5#",
+    "status": "Active",
+    "base_unit_amount": 4,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0069",
+    "name": "CA 400",
+    "unique_name": "ca 400",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 400",
+    "status": "Active",
+    "base_unit_amount": 400,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0070",
+    "name": "CA 48/6oz",
+    "unique_name": "ca 48/6oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 48/6oz",
+    "status": "Active",
+    "base_unit_amount": 48,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0071",
+    "name": "CA 48/8oz",
+    "unique_name": "ca 48/8oz",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 48/8oz",
+    "status": "Active",
+    "base_unit_amount": 48,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0072",
+    "name": "CA 5 Bags",
+    "unique_name": "ca 5 bags",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 5 Bags",
+    "status": "Active",
+    "base_unit_amount": 5,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0073",
+    "name": "CA 5/2#",
+    "unique_name": "ca 5/2#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 5/2#",
+    "status": "Active",
+    "base_unit_amount": 5,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0074",
+    "name": "CA 6/#10 Can",
+    "unique_name": "ca 6/#10 can",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 6/#10 Can",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0075",
+    "name": "CA 6/1.5#",
+    "unique_name": "ca 6/1.5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 6/1.5#",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0076",
+    "name": "CA 6/10# 108Z",
+    "unique_name": "ca 6/10# 108z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 6/10# 108Z",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0077",
+    "name": "CA 6/46Z",
+    "unique_name": "ca 6/46z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 6/46Z",
+    "status": "Active",
+    "base_unit_amount": 6,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0078",
+    "name": "CA 60",
+    "unique_name": "ca 60",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 60",
+    "status": "Active",
+    "base_unit_amount": 60,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0079",
+    "name": "CA 8/2.5#",
+    "unique_name": "ca 8/2.5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 8/2.5#",
+    "status": "Active",
+    "base_unit_amount": 8,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0080",
+    "name": "CA 8/32Z",
+    "unique_name": "ca 8/32z",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 8/32Z",
+    "status": "Active",
+    "base_unit_amount": 8,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0081",
+    "name": "CA 8/5#",
+    "unique_name": "ca 8/5#",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 8/5#",
+    "status": "Active",
+    "base_unit_amount": 8,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0082",
+    "name": "CA 9/.5GAL",
+    "unique_name": "ca 9/.5gal",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 9/.5GAL",
+    "status": "Active",
+    "base_unit_amount": 9,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0083",
+    "name": "CA 96",
+    "unique_name": "ca 96",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CA 96",
+    "status": "Active",
+    "base_unit_amount": 96,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0084",
+    "name": "Slice",
+    "unique_name": "slice",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "Slice",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0085",
+    "name": "2# Bag",
+    "unique_name": "2# bag",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "2# Bag",
+    "status": "Active",
+    "base_unit_amount": 1,
+    "system_default": false,
+    "base_uom": false
+  },
+  {
+    "id": "inv-uom-0086",
+    "name": "CS-5",
+    "unique_name": "cs-5",
+    "base_unit": {
+      "base_unit": "Each",
+      "scheme": "Neither",
+      "class": "Count"
+    },
+    "name_plural": "CS-5",
+    "status": "Active",
+    "base_unit_amount": 5,
+    "system_default": false,
+    "base_uom": false
+  }
+]
