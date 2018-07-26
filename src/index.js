@@ -2,6 +2,7 @@ const { readdirSync } = require('fs');
 const axios = require('axios');
 const { flatten } = require('lodash');
 const { parallel } = require('async');
+const https = require('https');
 const { NAMESPACE, SUPER_API, TOKEN, DATA_FOLDER } = require('./constants');
 
 function exe() {
@@ -27,7 +28,8 @@ function exe() {
             reqData: require(`../data/${DATA_FOLDER}/${fileName}`)
           }],
           isCallbackFunc: false
-        }
+        },
+        httpsAgent: new https.Agent({ rejectUnauthorized: false })
       }).then(response => callback(null, response))
         .catch(error => callback(null, error))
     }
