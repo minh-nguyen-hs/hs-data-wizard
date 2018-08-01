@@ -1,14 +1,16 @@
 const { readdirSync } = require('fs');
 const axios = require('axios');
-const { flatten } = require('lodash');
+const { flatten, includes } = require('lodash');
 const { parallel } = require('async');
 const https = require('https');
 const { NAMESPACE, SUPER_API, TOKEN, DATA_FOLDER } = require('./constants');
 
 function exe() {
+  const skippedFiles = ['ProductionItemThawSetup.json', 'ProductionRecipePreparationSetup.json'];
+
   const dataFiles = flatten(readdirSync(`./data/${DATA_FOLDER}`).filter((fileName) => {
     return fileName;
-  }));
+  })).filter(fileName => !includes(skippedFiles, fileName));
 
   parallel(dataFiles.map((fileName) => {
     return (callback) => {
