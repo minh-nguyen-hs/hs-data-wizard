@@ -1,9 +1,11 @@
 const { readdirSync } = require('fs');
+const path = require('path');
 const axios = require('axios');
 const { flatten, includes } = require('lodash');
 const { parallel } = require('async');
 const https = require('https');
-const { NAMESPACE, SUPER_API, TOKEN, DATA_FOLDER } = require('./constants');
+const { NAMESPACE, SUPER_API, TOKEN, DATA_FOLDER, USE_DATA_GENERATOR } = require('./constants');
+const dataGenerators = require('./dataGenerators');
 
 function exe() {
   const skippedFiles = ['ProductionItemThawSetup.json', 'ProductionRecipePreparationSetup.json'];
@@ -13,6 +15,10 @@ function exe() {
   })).filter(fileName => !includes(skippedFiles, fileName));
 
   parallel(dataFiles.map((fileName) => {
+    const keyName = path.parse(fileName).name;
+    const data = USE_DATA_GENERATOR && dataGenerators[keyName]
+      ? dataGenerators[keyName]
+      : require(`../data/${DATA_FOLDER}/${fileName}`);
     return (callback) => {
       axios({
         url: SUPER_API,
@@ -26,8 +32,8 @@ function exe() {
           funcName: "seedData",
           args: [{
             namespace: NAMESPACE,
-            type: fileName.substring(0, fileName.lastIndexOf('.')),
-            reqData: require(`../data/${DATA_FOLDER}/${fileName}`)
+            type: keyName,
+            reqData: data
           }],
           isCallbackFunc: false
         },
