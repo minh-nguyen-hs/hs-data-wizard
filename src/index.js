@@ -8,7 +8,10 @@ const { NAMESPACE, SUPER_API, TOKEN, DATA_FOLDER, USE_DATA_GENERATOR } = require
 const dataGenerators = require('./dataGenerators');
 
 function exe() {
-  const skippedFiles = ['ProductionItemThawSetup.json', 'ProductionRecipePreparationSetup.json'];
+  const skippedFiles = [
+    // 'ProductionItemThawSetup.json',
+    // 'ProductionRecipePreparationSetup.json'
+  ];
 
   const dataFiles = flatten(readdirSync(`./data/${DATA_FOLDER}`).filter((fileName) => {
     return fileName;

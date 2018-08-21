@@ -122,10 +122,25 @@ const ProductionRecipePreparationSetup = generate(RecordCount, i => ({
   "prep_time": "00:45"
 }));
 
+const ProductionItemThawSetup = generate(RecordCount, i => ({
+  "schedule": "prod-sched-0001",
+  "item_id": "inv-item-" + padStart(i, 5, '0'),
+  "thaw_time": "01:00",
+  "thaw_uom": "inv-uom-" + padStart(i, 5, '0'),
+  "store_key": {
+    "store_test": "prod-sched-0001"
+  },
+  "minimum_thawed_quantity": 99,
+  "status": "Active",
+  "shelf_life": "04:45",
+  "id": "production-thaw-" + padStart(i, 5, '0')
+}));
+
 module.exports = {
   ProductionInvUnitOfMeasure,
   ProductionInvCategory,
   ProductionItemDefinition,
   ProductionRecipeDefinition,
-  ProductionRecipePreparationSetup
+  ProductionRecipePreparationSetup,
+  ProductionItemThawSetup
 };
