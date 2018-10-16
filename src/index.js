@@ -22,6 +22,9 @@ function exe() {
     const data = USE_DATA_GENERATOR && dataGenerators[keyName]
       ? dataGenerators[keyName]
       : require(`../data/${DATA_FOLDER}/${fileName}`);
+
+    console.log('Generate: ', fileName, ' - ', data.length);
+
     return (callback) => {
       axios({
         url: SUPER_API,
@@ -42,10 +45,14 @@ function exe() {
         },
         httpsAgent: new https.Agent({ rejectUnauthorized: false })
       }).then(response => callback(null, response))
-        .catch(error => callback(null, error))
+        .catch(error => callback(error))
     }
-  }), () => {
-    console.log('DONE!');
+  }), (err) => {
+    if (err) {
+      console.log('ERROR: ', err)
+    } else {
+      console.log('DONE!');
+    }
   });
 };
 

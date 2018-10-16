@@ -1,6 +1,6 @@
 const { padStart } = require('lodash');
 
-const RecordCount = 1000;
+const RecordCount = 100;
 
 const generate = (count, objBuilder) => {
   const data = [];
@@ -137,6 +137,7 @@ const ProductionItemThawSetup = generate(RecordCount, i => ({
 }));
 
 module.exports = {
+  generate,
   ProductionInvUnitOfMeasure,
   ProductionInvCategory,
   ProductionItemDefinition,
