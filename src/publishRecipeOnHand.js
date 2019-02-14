@@ -11,34 +11,19 @@ function buildData() {
   return dataGenerators.generate(1, (id) => {
     const ts = new Date();
     const unixTs = (+ ts ) + '';
-    let i = 0;
-    let j = 0;
-    const items = dataGenerators.generate(10, (itemId) => ({
-      "item_id": "inv-item-" + padStart(itemId, 7, '0'),
-      "item_cost": 0,
-      "base_uom": "inv-uom-" + id + '-' + padStart(itemId, 7, '0'),
-      "quantity": -1
-    }));
-    const recipes = dataGenerators.generate(10, (itemId) => ({
-      "recipe_id": "inv-recipe-" + id + '-' + padStart(itemId, 5, '0'),
-      "item_cost": 0,
-      "base_uom": "inv-uom-" + id + '-' + padStart(itemId, 5, '0'),
-      "quantity": -1
-    }));
 
+    const items = dataGenerators.generate(10, (itemId) => ({
+      "store_key": "store_test",
+      "id": (id) + '-' + padStart(itemId + 0, 7, '0'),
+      "recipe_id": "inv-item-" + id + '-' + padStart(itemId, 7, '0'),
+      "theoretical_on_hand": 1,
+      "item_cost": 1000
+    }));
     const msgContent = {
-      "data": {
-        "id": unixTs + '_' + id,
-        "store_key": "store_test",
-        "transaction_id": unixTs + '_' + id,
-        "transaction_type": "Depleting",
-        "transaction_date": (new Date()).toISOString(),
-        "items": items,
-        "recipes": recipes
-      },
-      "type": "OH_UPDATE_TRANSACTION",
+      "data": {store_key: 'store_test', onHands: items},
+      "type": "RECIPE_ON_HAND_BY_STORE",
       "action": "create",
-      "namespace": "kms_qa_test",
+      "namespace": NAMESPACE,
       "timestamp": ts
     };
 

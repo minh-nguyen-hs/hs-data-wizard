@@ -11,34 +11,14 @@ function buildData() {
   return dataGenerators.generate(1, (id) => {
     const ts = new Date();
     const unixTs = (+ ts ) + '';
-    let i = 0;
-    let j = 0;
-    const items = dataGenerators.generate(10, (itemId) => ({
-      "item_id": "inv-item-" + padStart(itemId, 7, '0'),
-      "item_cost": 0,
-      "base_uom": "inv-uom-" + id + '-' + padStart(itemId, 7, '0'),
-      "quantity": -1
-    }));
-    const recipes = dataGenerators.generate(10, (itemId) => ({
-      "recipe_id": "inv-recipe-" + id + '-' + padStart(itemId, 5, '0'),
-      "item_cost": 0,
-      "base_uom": "inv-uom-" + id + '-' + padStart(itemId, 5, '0'),
-      "quantity": -1
-    }));
 
     const msgContent = {
       "data": {
-        "id": unixTs + '_' + id,
-        "store_key": "store_test",
-        "transaction_id": unixTs + '_' + id,
-        "transaction_type": "Depleting",
-        "transaction_date": (new Date()).toISOString(),
-        "items": items,
-        "recipes": recipes
+        "depletionTransactionFolder": "prod_qa_test/store_test/DepletionTransaction/1548408605412/",
       },
-      "type": "OH_UPDATE_TRANSACTION",
+      "type": "DEPLETING_TRANSACTION",
       "action": "create",
-      "namespace": "kms_qa_test",
+      "namespace": NAMESPACE,
       "timestamp": ts
     };
 
